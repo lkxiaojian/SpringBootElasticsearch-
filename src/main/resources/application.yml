@@ -1,0 +1,9 @@
+server:
+  port: 9090
+
+spring:
+  thymeleaf:
+    cache: false
+  web:
+    resources:
+      static-locations: classpath:/META-INF/resources/, classpath:/resources/, classpath:/static/, classpath:/static/js, classpath:/public/, classpath:/templates/
